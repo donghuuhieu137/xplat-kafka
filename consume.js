@@ -1,7 +1,7 @@
 const { Kafka, logLevel } = require("kafkajs")
 
 const clientId = "my-app"
-const brokers = ["kafka:9092"]
+const brokers = ["kafka-zoo:9092"]
 const topic = "message-log"
 
 const kafka = new Kafka({
